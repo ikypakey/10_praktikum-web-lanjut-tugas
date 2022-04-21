@@ -4,11 +4,16 @@
 <div class="col-lg-12 margin-tb mb-5">
     <a href="/mahasiswa" style="text-decoration: none;color:black">
         <div class="pull-left mt-2">
-            <h2>JURUSAN TEKNOLOGI INFORMASI-POLITEKNIK NEGERI MALANG</h2>
+            <h3 class="text-center mb-5">JURUSAN TEKNOLOGI INFORMASI - POLITEKNIK NEGERI MALANG</h3>
+            <h2 class="text-center mb-4">KARTU HASIL STUDI (KHS)</h2>
         </div>
     </a>
 </div>
 <h1 class="text-center">KARTU HASIL STUDI (KHS)</h1>
+        <br><br><br>
+        <div class="text-right">
+            <a href="/cetak_pdf/{{ $mhs -> id_mahasiswa }}" class="btn btn-dark"> Cetak PDF </a>
+        </div>
 <div class="bio mt-5 mb-4">
     <p><strong>Nama : </strong> {{ $mhs -> nama }}</p>
     <p><strong>NIM : </strong> {{ $mhs-> nim }}</p>
@@ -38,7 +43,4 @@
 
     </tbody>
 </table>
-<div class="text-center">
-    <a href="/cetak_pdf/{{ $mhs -> nim }}" class="btn btn-danger"> Cetak PDF</a>
-</div>
 @endsection

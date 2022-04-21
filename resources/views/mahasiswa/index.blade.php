@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left mt-2">
-            <h2>JURUSAN TEKNOLOGI INFORMASI-POLITEKNIK NEGERI MALANG</h2>
+            <h3 class="text-center mb-5">JURUSAN TEKNOLOGI INFORMASI - POLITEKNIK NEGERI MALANG</h3>
         </div>
         <div class="float-right my-2">
             <a class="btn btn-success" href="{{ route('mahasiswa.create') }}"> Input Mahasiswa</a>
@@ -32,9 +32,9 @@
 @endif
 <table class="table table-bordered">
     <tr>
-        <th>Nim</th>
+        <th>NIM</th>
         <th>Nama</th>
-        <th>Foto</th>
+        <th>Foto Mahasiswa</th>
         <th>Kelas</th>
         <th>Jurusan</th>
         <th width="300px">Action</th>
